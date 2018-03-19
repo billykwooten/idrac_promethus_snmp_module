@@ -1,6 +1,6 @@
 ## Prometheus iDrac SNMP Exporter Dell Module
 
-I've generated a Dell iDrac Module for use with the Prometheus SNMP Exporter. I am going to assume most people already know how to use the prometheus snmp exporter.
+I've generated a Dell iDrac Module for use with the Prometheus SNMP Exporter. A good use case for this is monitoring your ESXi system health via an iDrac SNMP as vCenter plugins and golang binaries (for basic exporters) can't run on ESXi systems. I am going to assume most people already know how to use the prometheus snmp exporter below.
 
 ### How to use the Module
 
