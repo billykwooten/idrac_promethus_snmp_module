@@ -30,13 +30,13 @@ dell_idrac:
     type: gauge
     help: This attribute defines the overall rollup status of all components in the
       system being monitored by the remote access card - 1.3.6.1.4.1.674.10892.5.2.1
-    #Gloabl Storage Health
+    #Global Storage Health
   - name: idrac_globalStorageStatus
     oid: 1.3.6.1.4.1.674.10892.5.2.3
     type: gauge
     help: This attribute defines the overall storage status being monitored by the
       remote access card. - 1.3.6.1.4.1.674.10892.5.2.3
-    #Gloabl Power System Health
+    #Global Power System Health
   - name: idrac_systemPowerState
     oid: 1.3.6.1.4.1.674.10892.5.2.4
     type: gauge
